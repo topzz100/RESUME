@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background: rgb(156, 238, 156);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+.container{
+  width: 80%;
+  /* min-height: 100px; */
+  min-height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 50px 0;
+}
+.left{
+  background: rgb(5, 99, 5);
+  padding: 30px;s
+}
+.left .name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+.name .img-box{
+  width: 250px;
+  height: 250px;
+  background: white;
+  border-radius: 50%;
+}
+.name h3{
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: white;
+}
+.name p{
+  font-size: .9rem;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 5px;
+}
+.contact{
+  margin-top: 30px;
+}
+.contact h3{
+  color: white;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.contact .contact-info{
+  display: flex;
+  margin-bottom: 8px;
+}
+.contact-info span{
+  margin-right: 10px;
+  color: white;
+}
+.education{
+  margin-top: 30px;
+  color: white;
+}
+.education h3{
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.education h4{
+  font-size: .9rem;
+  color: black;
+}
+.education h5{
+  /* margin-top: 5px; */
+  color: white;
+  line-height: 2rem;
+  font-size: .9rem;
+}
+.education p{
+  font-size: .8rem;
+  color: white;
+}
+.languages{
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.languages h3{
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.languages .lang p{
+  text-transform: capitalize;
+  margin-bottom: 5px;  
+}
+.lang .bar{
+  width: 200px;
+  height: 7px;
+  padding: 1px;
+  border: 1px solid white;
+  border-radius: 2px;
+}
+.bar .status{
+  width: 95%;
+  height: 100%;
+  background-color: white;
+}
+.right{
+  background: white;
+  padding: 40px;
+}
+.right .profile h2{
+  color: rgb(5, 99, 5);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.profile p{
+  font-size: .9rem;
+  line-height: 2rem;
+}
+.right .skills{
+  margin-top: 70px;
+
+}
+.skills h3{
+  color: rgb(5, 99, 5);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.skill{
+  display: flex;
+  margin-bottom: 30px;
+  position: relative;
+}
+.skill p{
+  font-size: .8rem;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+.html .bar{
+  width: 300px;
+  height: 7px;
+  padding: 1px;
+  border: 1px solid green;
+  border-radius: 2px;
+  position: absolute;
+  left: 150px;
+}
+.html .status{
+  width: 95%;
+  height: 100%;
+  background-color: green;
+}
+.css .bar{
+  width: 300px;
+  height: 7px;
+  padding: 1px;
+  border: 1px solid green;
+  border-radius: 2px;
+  position: absolute;
+  left: 150px;
+}
+.css .status{
+  width: 98%;
+  height: 100%;
+  background-color: green;
+}
+.javascript .bar{
+  width: 300px;
+  height: 7px;
+  padding: 1px;
+  border: 1px solid green;
+  border-radius: 2px;
+  position: absolute;
+  left: 150px;
+}
+.javascript .status{
+  width: 80%;
+  height: 100%;
+  background-color: green;
+}
+.git .bar{
+  width: 300px;
+  height: 7px;
+  padding: 1px;
+  border: 1px solid green;
+  border-radius: 2px;
+  position: absolute;
+  left: 150px;
+}
+.git .status{
+  width: 70%;
+  height: 100%;
+  background-color: green;
+}
